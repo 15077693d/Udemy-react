@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap');
+/* variable */
+$color-init:#C3F5F7;
+$color-active:#42BFDB;
+$color-total: #39DA7B;
+
+.btn{
+    margin-top: 20px;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    padding: 0 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course{
+    transition: all 0.4s;
+    cursor: pointer;
+    background-color: $color-init;
+    &:hover{
+        color: white;
+        background-color: $color-active;
+    }
+}
+
+.total{
+    background-color: $color-total;
+}
